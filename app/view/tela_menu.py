@@ -15,9 +15,9 @@ class TelaMenu():
     def menu(self):
 
         # Tela de menu
-        st.title("Sistemas de notas")
+        st.title("Sistemas de Notas")
         st.sidebar.title("Menu de Opções")
-        menu = st.sidebar.selectbox("Selecione uma Opção", ("Professor", "Aluno", "Disciplina", "Notas"))
+        menu = st.sidebar.selectbox("Selecione uma opção", ("Professor", "Aluno", "Disciplina", "Notas"))
 
         # Switch case para selecionar a tela de acordo com a opção selecionada no menu
         match menu:

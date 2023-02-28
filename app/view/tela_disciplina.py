@@ -14,8 +14,8 @@ class Tela_disciplina():
     # Método responsável por gerenciar a tela de disciplina
     def tela_disciplina(self):
 
-        st.title("Sessão da Disciplina")
-        box_disciplina = st.selectbox("Selecione uma opção", ("Cadastrar", "Editar", "Excluir", "Listar"))
+        st.title("Área da Disciplina")
+        box_disciplina = st.selectbox("Selecione uma opção:", ("Cadastrar", "Editar", "Excluir", "Listar"))
 
         match box_disciplina:
             

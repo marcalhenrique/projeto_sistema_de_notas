@@ -14,9 +14,8 @@ class Tela_notas():
     # Método responsável por gerenciar a tela de notas
     def tela_notas(self):
 
-        st.title("Sessão de Notas")
-        st.markdown("Selecione uma opção")
-        box_notas = st.selectbox("Selecione uma opção", ("Cadastrar", "Editar", "Excluir", "Listar"))
+        st.title("Área de Notas")
+        box_notas = st.selectbox("Selecione uma opção:", ("Cadastrar", "Editar", "Excluir", "Listar"))
         
         match box_notas:
 

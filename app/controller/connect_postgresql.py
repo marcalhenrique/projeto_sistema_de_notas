@@ -15,7 +15,7 @@ class ConnectPostgresql:
                                 user = "postgres",
                                 password = "postgres",
                                 database = "db_sistema",
-                                port = "5441",
+                                port = "5432",
             )
 
         self.curs = self.conn.cursor()

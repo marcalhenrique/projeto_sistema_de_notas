@@ -14,9 +14,8 @@ class Tela_aluno():
     # Método responsável por gerenciar a tela de aluno
     def tela_aluno(self):
 
-        st.title("Aluno")
-        st.markdown("Selecione uma opção:")
-        box_aluno = st.selectbox("Selecione uma opção", ("Cadastrar", "Editar", "Excluir", "Calcular Média", "Listar"))
+        st.title("Área do Aluno")
+        box_aluno = st.selectbox("Selecione uma opção:", ("Cadastrar", "Editar", "Excluir", "Calcular Média", "Listar"))
 
         match box_aluno:
 

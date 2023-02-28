@@ -14,7 +14,7 @@ class Tela_professor():
     # Método responsável por gerenciar a tela de professor
     def tela_professor(self):
             
-            st.title("Sessão do Professor")
+            st.title("Área do Professor")
             st.markdown("Selecione uma opção:")
             box_professor = st.selectbox("Selecione uma opção", ("Cadastrar", "Editar", "Excluir", "Listar"))
 
